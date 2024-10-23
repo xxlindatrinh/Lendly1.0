@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import './App.css'
+import "./App.css";
 import "./Onboarding.css"; // Stil til onboarding-komponenten
 import closeIcon from "./close-icon.png"; // Krydset i hjørnet
 
@@ -57,8 +57,6 @@ const Onboarding = ({ onClose }) => {
 
 export default Onboarding;
 
-
-
 const App = () => {
   const [showOnboarding, setShowOnboarding] = useState(true);
 
@@ -73,7 +71,3 @@ const App = () => {
     </>
   );
 };
-
-export default App;
-
-
