@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./App.css";
-import "./Onboarding.css"; // Stil til onboarding-komponenten
 import closeIcon from "./close-icon.png"; // Krydset i hjørnet
 
 const Onboarding = ({ onClose }) => {
