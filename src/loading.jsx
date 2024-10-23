@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.png"; // Importér logo
-import './App.css'
+import "./App.css";
 
 const LoadingScreen = () => {
   return (
@@ -28,5 +28,3 @@ const App = () => {
 
   return <>{isLoading ? <LoadingScreen /> : <LoginPage />}</>;
 };
-
-export default App;
